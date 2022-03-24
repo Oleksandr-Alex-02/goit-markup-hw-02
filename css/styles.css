@@ -1,17 +1,27 @@
-/*top-line*/
+body {
+  background-color: aquamarine;
+}
+
+/* навигацыя сайта и логотип */
+
+/*уникальный контент страницы*/
 
 /**/
+
 /**/
+
 /**/
+
 /**/
+
 /**/
-/**/
+
 /**/
 
 a:hover {
- border-bottom: 1px solid rgb(212, 19, 19);
+  border-bottom: 1px solid rgb(212, 19, 19);
 }
-} /*footer*/
+/*подвал сайта из адресами и контактами*/
 
 footer ul li a {
   text-decoration: none;
