@@ -1,14 +1,18 @@
-.top-line {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+/*top-line*/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+a:hover {
+ border-bottom: 1px solid rgb(212, 19, 19);
 }
-.logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  color: #2196f3;
+} /*footer*/
+
+footer ul li a {
+  text-decoration: none;
 }
