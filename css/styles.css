@@ -2,17 +2,42 @@
 
 /* цвет h2 h3 #212121 */
 
-/* цвет текста #757575 */
+/* цвет основной текста #757575 */
 
 /* цвет h1 #ffffff */
 
-/*  */
+/* все цвета */
+:root {
+  --primary-text-color: #757575;
+  --titel-text-color: #212121;
+  --accent-color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+
 body {
-  background-color: rgb(255, 246, 127);
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
 }
 
 /* навигацыя сайта и логотип */
 
+.header-logo {
+  color: var(--titel-text-color);
+}
+
+/* header-nav-list */
+.header-link {
+  color: var(--titel-text-color);
+}
+.header-linkcurrent {
+  color: var(--accent-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
 /*уникальный контент страницы*/
 
 /**/
@@ -26,12 +51,3 @@ body {
 /**/
 
 /**/
-
-a:hover {
-  border-bottom: 1px solid rgb(212, 19, 19);
-}
-/*подвал сайта из адресами и контактами*/
-
-footer ul li a {
-  text-decoration: none;
-}
