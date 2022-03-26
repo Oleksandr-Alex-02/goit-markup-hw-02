@@ -17,14 +17,45 @@
 }
 
 body {
+  font-family: "Roboto";
+  font-style: normal;
   background-color: #e5e5e5;
-  color: var(--primary-text-color);
 }
 
 /* навигацыя сайта и логотип */
-
+.header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background-color: #ececec;
+}
+.header ul li {
+  display: inline;
+}
+.header-contacts {
+  margin: 0px, 20px, 100px, 500px;
+  text-align: center;
+}
 .header-logo {
   color: var(--titel-text-color);
+}
+.line {
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 0px;
+  background-color: #641111;
+  border: 1px solid #641111;
+}
+/* hero */
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+
+  background: #2f303a;
 }
 
 /* header-nav-list */
