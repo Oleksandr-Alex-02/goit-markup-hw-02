@@ -7,7 +7,10 @@
 /* цвет h1 #ffffff */
 
 /* все цвета */
-
+/* експеримент */
+a {
+  cursor: no-drop;
+}
 :root {
   --primary-text-color: #757575;
   --titel-text-color: #212121;
@@ -22,15 +25,13 @@ body {
   font-style: normal;
   background-color: #e5e5e5;
 }
-
-/* навигация сайта и логотип */
-.header {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
+/* хедер */
+header {
+  color: #212121;
   background-color: #ececec;
 }
+/* навигация сайта и логотип */
+
 .header ul li {
   display: inline;
 }
@@ -82,4 +83,13 @@ body {
 
 /**/
 
-/**/
+/*подвал*/
+
+footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background-color: #2f303a;
+}
