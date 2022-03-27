@@ -7,6 +7,7 @@
 /* цвет h1 #ffffff */
 
 /* все цвета */
+
 :root {
   --primary-text-color: #757575;
   --titel-text-color: #212121;
@@ -17,12 +18,12 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   background-color: #e5e5e5;
 }
 
-/* навигацыя сайта и логотип */
+/* навигация сайта и логотип */
 .header {
   width: 1600px;
   height: 80px;
