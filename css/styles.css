@@ -13,8 +13,15 @@ body {
 /*                                     хедер */
 
 /* логотип */
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-list .link.accent {
+  color: var(--accent-color);
+}
+.site-nav.link:hover,
+.site-nav.link:focus {
+  color: var(--accent-color);
+}
+/* тест */
+.nav-list .link.accent {
   color: var(--accent-color);
 }
 .site-nav .link {
