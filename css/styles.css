@@ -1,30 +1,59 @@
-/* цвет шапки и подвала #2F303A */
-
-/* цвет h2 h3 #212121 */
-
-/* цвет основной текста #757575 */
-
-/* цвет h1 #ffffff */
-
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #e5e5e5;
+}
+.link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
 /*                                     хедер */
 
 /* логотип */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: #000000;
+}
 
 /* навигация сайта */
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
 
 /* кантакты */
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: var(--accent-color);
+}
 
 /* линия тест */
 
 /*                                    mein index.html */
+.h2,
+h3,
+h4 {
+  color: var(--secondary-text-color);
+}
 
 /* герой */
-
+.hero {
+}
 /* особености нашей команды */
-
+.command-peculiarities {
+}
 /* чем мы занимается наша команда */
-
+.projects-section {
+}
 /* наша команда */
+.command-section {
+}
 
 /*                                     mein portfolio.html */
 
@@ -42,5 +71,5 @@ footer {
   letter-spacing: 0.03em;
 
   color: #ffffff;
-  background-color: #2f303a;
+  background-color: var(--heder-footer-background-color);
 }
