@@ -4,6 +4,15 @@
   --accent-color: #2196f3;
 }
 body {
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
   background-color: #e5e5e5;
   color: var(--primary-text-color);
 }
@@ -19,7 +28,7 @@ body {
   color: #000000;
 }
 
-.logo {
+.logo-footer {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -33,13 +42,13 @@ body {
 }
 
 /*                                     хедер */
+/* ссылки */
 
 .link {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
 
-/* логотип */
 .nav-list .link.accent {
   color: var(--accent-color);
 }
@@ -54,55 +63,121 @@ body {
 }
 
 /* навигация сайта */
-.nav-list .link.accent {
-  color: var(--accent-color);
-}
 
 .nav-list .link:hover,
-.nav-list .link:focus {
-  color: var(--accent-color);
-}
-
-/* кантакты */
+.nav-list .link:focus,
 .contact-list .link:hover,
 .contact-list .link:focus {
   color: var(--accent-color);
 }
-
-/* линия тест */
-
-/*                                    mein index.html */
-h2,
-h3,
-h4 {
-  color: var(--secondary-text-color);
+/* кантакты */
+.nav-list,
+.contact-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
+/*                                    mein index.html */
+
 /* герой */
+.button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
 .hero {
   background: #2f303a;
 }
 
 .hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
   color: #ffffff;
 }
 /* особености нашей команды */
-.command-peculiarities {
+
+.command-peculiarities h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 /* чем мы занимается наша команда */
-.projects-section {
+.projects-section h2,
+.command-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 /* наша команда */
-.command-section {
-}
+.command-section h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.command-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
 /*                                     mein portfolio.html */
 
 /* уникальный контент страницы */
 
 /*кнопки фильтра*/
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
 
 /* нашы проекты */
+
+.projects h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.projects p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.projects-link {
+  text-decoration: none;
+}
 
 /*                                      подвал сайта*/
 
